@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>옆 테이블 여자 존나 이쁘다</title>
+
+    <style>
+        /* 화면 전체를 중앙 정렬 컨테이너로 설정 */
+        body {
+            margin: 0;                  /* 기본 여백 제거 */
+            height: 100vh;              /* 화면 전체 높이 */
+            display: flex;             /* flex 레이아웃 사용 */
+            justify-content: center;   /* 가로 중앙 정렬 */
+            align-items: center;       /* 세로 중앙 정렬 */
+            text-align: center;        /* 글자 내부 가운데 정렬 */
+        }
+
+        h1 {
+            font-size: 64px;            /* 글씨 크게 */
+        }
+
+        p {
+            font-size: 32px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>여신을 만났다!</h1>
+        <p>오늘은 인생 최고의 날이다</p>
+    </div>
+</body>
